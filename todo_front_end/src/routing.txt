@@ -1,0 +1,11 @@
+ <Router>
+      <div>
+       <Navbar />
+      
+     
+      <Route path="/" exact component={SignInPage} />
+        <Route path="/signin/" component={SignInPage} />
+        <Route path="/signup/" component={SignUpPage} />
+
+      </div> 
+      </Router>
